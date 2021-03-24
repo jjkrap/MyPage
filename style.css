@@ -1,5 +1,10 @@
 
 
 body {
-  background: blue;
+  font-family: "Times New Roman", arial
+  color: background: blue;
+}
+
+.center{
+  text-align:"center";
 }
