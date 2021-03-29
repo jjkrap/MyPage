@@ -1,3 +1,7 @@
+hr {
+  height: 10px;
+}
+
 header {
   background-color: greenyellow ;
  
@@ -9,7 +13,17 @@ header h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:52px;
   text-align: center;
-  padding: 60px 0 20px 20px;
+  padding: 20px 0 0px 20px;
+}
+
+nav {
+  color: white;
+}
+img {
+  border-radius: 50%;
+  display: flex;
+  width: 50%;
+  
 }
 
 h2 {
@@ -20,6 +34,7 @@ h2 {
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: grey ;
+  background-color: green;
 }
 
 p {
@@ -30,7 +45,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif ;
 section {
  justify-content: space-evenly;
  border: 10px solid black;
- 
+ background: greenyellow;
 }
 
 .center{
@@ -51,12 +66,11 @@ section {
 
 .button {
   border: 5px solid black;
-  margin: 100px;
+  margin: 10px;
   border-radius: 10%;
   background-color: black;
   color:white;
 }
-
 .nobullet{
   list-style-type: none;
 }
