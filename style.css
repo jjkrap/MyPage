@@ -1,31 +1,67 @@
-
 header {
-  background-color: ;
+  background-color: greenyellow ;
+ 
 }
 
 header h1 {
   margin: 0;
-  color: white;
-  font-family: 'Abril Fatface', cursive;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size:52px;
   text-align: center;
   padding: 60px 0 20px 20px;
 }
 
+h2 {
+  font-size: 40px;
+  }
+
+
 body {
-  font-family: "Times New Roman", arial
-  color: #FAEBD7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey ;
+}
+
+p {
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+section {
+ justify-content: space-evenly;
+ border: 10px solid black;
+ 
 }
 
 .center{
   text-align: center;
 }
 
-h2 {
-font-size: 20px;
-  
+.alignLeft {
+  text-align: left;
+ 
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;  
 }
 
 .button {
-  border: 5px solid grey;
+  border: 5px solid black;
+  margin: 100px;
+  border-radius: 10%;
+  background-color: black;
+  color:white;
+}
+
+.nobullet{
+  list-style-type: none;
+}
+
+footer {
+  padding: 10px;
+  border: 20px solid black;
 }
